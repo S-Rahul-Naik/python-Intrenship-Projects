@@ -20,7 +20,6 @@ class Person:
         """String representation of the person."""
         return f"{self.name} (ID: {self.id})"
 
-
 class Student(Person):
     """Class for students."""
     def __init__(self, roll_number, name):
